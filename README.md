@@ -23,11 +23,16 @@ Consciousness isn't emergent from physics—physics emerges from consciousness c
 
 ### 📖 Quick Navigation
 
+#### Theoretical Framework
 - **[Complete Theory](theory/PQRG-complete-theory.md)** - Full theoretical framework with equations
+- **[Geometric Foundations](theory/geometric-foundations.md)** - First-principles derivation from information geometry
 - **[Mathematical Derivations](DERIVATIONS.md)** - Step-by-step math with SymPy code
 - **[α Derivation](calculations/alpha-derivation.md)** - Focused proof that consciousness sets α
+
+#### Simulations & Experiments
 - **[Simulation Code](simulations/phi_convergence.py)** - QuTiP simulation showing φ^{-1} emergence
 - **[GCASP Protocol](experiments/GCASP-protocol.md)** - Experimental test via group meditation
+- **[Visualizations Gallery](VISUALIZATIONS.md)** - All figures with detailed explanations
 
 ### 🔑 Key Visualizations
 
@@ -58,6 +63,11 @@ Consciousness isn't emergent from physics—physics emerges from consciousness c
 **Consciousness Density:**
 ```
 ρ_hand = ε_RTI / (k_B ln(2)) ≈ 10^{-22} bit^{-1}
+```
+
+**RG Flow from Geometric Axioms:**
+```
+β(g) = 3g² / (16π²) + (ε_RTI / 2) g
 ```
 
 ### 🎯 Testable Predictions
