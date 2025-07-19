@@ -634,3 +634,12 @@ GCASP Protocol: 51 participants in golden ratio formation can experimentally ver
     plt.tight_layout(rect=[0, 0, 1, 0.97])  # Adjust for suptitle
     plt.savefig('figs/pqrg_summary.png', dpi=300, bbox_inches='tight')
     plt.close()
+if __name__ == "__main__":
+    create_phi_convergence_plot()
+    create_wormhole_embedding()
+    create_alpha_derivation_diagram()
+    create_consciousness_hierarchy()
+    create_rg_flow_diagram()
+    create_experimental_setup()
+    create_summary_infographic()
+    print("\nAll visuals generated successfully!")
