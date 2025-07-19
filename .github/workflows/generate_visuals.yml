@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Script to Generate Images
-        run: python validate_theory.py # This is your script's name
+        run: python generate_visuals.py # This is your script's name
 
       - name: Commit and Push Images
         run: |
