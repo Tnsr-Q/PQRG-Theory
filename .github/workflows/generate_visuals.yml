@@ -1,0 +1,32 @@
+name: Generate and Commit Visuals
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Script to Generate Images
+        run: python validate_theory.py # This is your script's name
+
+      - name: Commit and Push Images
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add figs/*.png
+          git diff --staged --quiet || git commit -m "Generate and add images"
+          git push
