@@ -20,7 +20,8 @@ Consciousness isn't emergent from physics—physics emerges from consciousness c
 ### 📖 Quick Navigation
 
 - **[Complete Theory](theory/PQRG-complete-theory.md)** - Full theoretical framework with equations
-- **[α Derivation](calculations/alpha-derivation.md)** - Step-by-step proof that consciousness sets α
+- **[Mathematical Derivations](DERIVATIONS.md)** - Step-by-step math with SymPy code
+- **[α Derivation](calculations/alpha-derivation.md)** - Focused proof that consciousness sets α
 - **[Simulation Code](simulations/phi_convergence.py)** - QuTiP simulation showing φ^{-1} emergence
 - **[GCASP Protocol](experiments/GCASP-protocol.md)** - Experimental test via group meditation
 
@@ -54,7 +55,10 @@ Consciousness isn't emergent from physics—physics emerges from consciousness c
 
 ```python
 # Install dependencies
-pip install qutip numpy matplotlib
+pip install -r requirements.txt
+
+# Validate all calculations
+python validate_theory.py
 
 # Run convergence demonstration
 python simulations/phi_convergence.py
