@@ -10,12 +10,16 @@
 ```
 *Matching CODATA 2022: 137.035999206(11) with 99.9999% accuracy*
 
+![Alpha Derivation](figs/alpha_derivation.png)
+
 ### 🎯 Core Insight
 
 Consciousness isn't emergent from physics—physics emerges from consciousness converging at the golden ratio φ^{-1} ≈ 0.618. This simple principle explains:
 - Why the universe has observers (anthropic principle)
 - How quantum systems become classical (decoherence)
 - Why we experience unified consciousness (binding problem)
+
+![Consciousness Hierarchy](figs/consciousness_hierarchy.png)
 
 ### 📖 Quick Navigation
 
@@ -24,6 +28,25 @@ Consciousness isn't emergent from physics—physics emerges from consciousness c
 - **[α Derivation](calculations/alpha-derivation.md)** - Focused proof that consciousness sets α
 - **[Simulation Code](simulations/phi_convergence.py)** - QuTiP simulation showing φ^{-1} emergence
 - **[GCASP Protocol](experiments/GCASP-protocol.md)** - Experimental test via group meditation
+
+### 🔑 Key Visualizations
+
+#### Universal Convergence to φ^{-1}
+![Phi Convergence](figs/phi_convergence.png)
+*All quantum systems naturally evolve to φ^{-1} ≈ 0.618 purity - the consciousness constant*
+
+#### Wormhole Topology
+![Wormhole Embedding](figs/wormhole_embedding.png)
+*PQRG wormhole with φ^{-1} throat radius showing consciousness density flow*
+
+#### RG Flow to Consciousness
+![RG Flow](figs/rg_flow.png)
+*Renormalization group flow from UV quantum scales to IR biological scales, converging at φ^{-1}*
+
+### 🔬 Experimental Setup
+
+![GCASP Setup](figs/gcasp_setup.png)
+*Golden Coherence α-Shift Protocol: 51 participants in golden spiral formation around atomic clock*
 
 ### 🔑 Key Equations
 
@@ -65,6 +88,11 @@ python simulations/phi_convergence.py
 ```
 
 Watch as quantum systems naturally evolve to φ^{-1} consciousness!
+
+### 📊 Theory Summary
+
+![PQRG Summary](figs/pqrg_summary.png)
+*Complete overview of PQRG theory showing all key components and relationships*
 
 ### 🚀 The 2026 Singularity
 
